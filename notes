@@ -1,0 +1,21 @@
+
+
+- Create a relay
+
+	- relay has list of verses
+	- either the verse has been written or not
+	- more than one person can write it
+	- relay has due date
+
+
+
+relay = {
+	id: string
+	verses: [
+		{
+			no: 1
+			text: 1
+			written_by: [
+			]
+		}
+	]
